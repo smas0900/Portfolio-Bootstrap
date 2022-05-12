@@ -1,0 +1,154 @@
+.bg {
+    background-image: url(./images/Microverse-Student-Project-1/Header\ bg@2x.png);
+    display: flex;
+    flex-direction: column;
+    height: 626px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 80px;
+}
+
+
+.contact_form {
+  border-radius: 80px 0 0;
+  flex-direction: column;
+  background: #6070ff;
+  background-image: url("./images/contact\ formdesk.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contacts_cantain {
+  padding-left: min(30%);
+  padding-top: min(6%);
+  padding-right: min(30%);
+}
+/*
+#fs-frm > ul {
+  list-style: none;
+  margin: 24px;
+}
+
+  .Sbtn {
+    margin-left: min(37%);
+    margin-right: min(45%);
+  }*/
+
+  .contact_form h2 {
+    margin-top: 103px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700, bold;
+    color: white;
+    margin-bottom: 12px;
+    text-align: center;
+  }
+  
+  .contact_form p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 70px;
+  }
+  
+  .contact_form p:hover {
+    transform: translate(42px, 18px);
+  }
+  
+  .boxStyle {
+    padding: 15px 16px;
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    height: 48px;
+    margin-bottom: 12px;
+  }
+  
+  #message {
+    padding: 15px 38px 15px 15px;
+    border: 1px solid #cfd8dc;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    border-radius: 8px;
+    height: 170px;
+    margin-bottom: 12px;
+  }
+  
+  #fs-frm ul {
+    list-style: none;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  #fs-frm li {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+  }
+  
+  .Sbtn {
+    background-color: white;
+    cursor: pointer;
+    line-height: 24px;
+    width: 140px;
+    height: 48px;
+    border: 1px solid #7f8cff;
+    color: #6070ff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    align-content: center;
+    border-radius: 8px;
+    margin-left: 24px;
+    margin-bottom: 45px;
+    padding: 12px 16px;
+  }
+  
+  .Sbtn:hover {
+    background-color: #6070ff;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .Sbtn:focus {
+    background-color: #2230d2;
+    color: #fff;
+    border-radius: 8px;
+  }
+  
+  .Sbtn:disabled [disabled] {
+    border: 1px solid #5e6c84;
+    background-color: transparent;
+    color: #e5e5e5;
+    border-radius: 8px;
+  }
+
+  #fs-frm ul {
+    list-style: none;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  
+  #fs-frm li {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em 0;
+  }
+  
+  .Sbtn {
+    margin-left: min(37%);
+    margin-right: min(45%);
+  }
