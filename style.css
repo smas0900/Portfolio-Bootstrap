@@ -1,0 +1,10 @@
+.bg {
+    background-image: url(./images/Microverse-Student-Project-1/Header\ bg@2x.png);
+    display: flex;
+    flex-direction: column;
+    height: 626px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 80px;
+}
